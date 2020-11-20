@@ -4,7 +4,7 @@
 int main(){
 
     // inteiro
-    int x = 10;
+    int x = 21;
     printf("%d", x);
     printf("\n");
 
@@ -13,19 +13,26 @@ int main(){
     printf("%f", y);
     printf("\n");
 
+    // double (real)
+    double z = 2.34567;
+    printf("%lf", z);
+    printf("%.2lf", z);
+    printf("\n");
+
     // char 
     char genero = 'F';
     printf("%c", genero);
     printf("\n");
 
-    if(genero == 'F'){
-        printf("Feminino\n");
-    }
 
     // string
     char nome[50];
     strcpy(nome, "Andressa");
     printf("%s", nome);
+    printf("\n");
+
+    printf("------------------------------\n");
+    printf("A funcionária %s, sexo %c, ganha %.2lf reais e tem %d anos.", nome, genero, z, x);
     printf("\n");
     
     return 0;
