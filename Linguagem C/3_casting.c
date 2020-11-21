@@ -17,8 +17,8 @@ int main(){
 
     int intarea = (int) area;
 
-    printf("\nÁrea = %.1lf\n", area);
-    printf("\nÁrea = %d", intarea);
+    printf("\nÁrea = %.1lf", area);
+    printf("\nÁrea = %d\n", intarea);
     
     return 0;
     
